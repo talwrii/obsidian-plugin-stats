@@ -42,6 +42,10 @@ To maintain statistics you may wish to run obsidian-plugin-stats daily using, fo
 
 If this data is valuable to you might like to back up `~/.local/state/obsidian-plugin-stats`. I have this symlinked to a directory which I back up.
 
+# Support
+If you found this tool useful you could make a donation ($2 maybe?) which will incentivize me to make and maintain tools like this.
+
+Also, if you looked at this tool you are likely making a plugin for Obsidian. You may well be interested in my tool [Plugin REPL](https://readwithai.substack.com/p/obsidian-plugin-repl) which is designed to rapidly scripting Obsidian and iterating on plugins.
 
 # About me
 I am @readwithai I make tools related to reading and research sometimes using the [Obsidian markdown editor]. I get quite a lot of value from using Obsidian for "drive-by" note taking while coding, Obsidian makes it easy to quickly find a page and jot down some notes in a place where you will find it again when thinking about the same thing. I wrote some notes about this [here](https://readwithai.substack.com/p/drive-by-note-taking-in-obsidian) .
