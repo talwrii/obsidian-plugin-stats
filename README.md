@@ -1,5 +1,5 @@
 # Obsidian Plugin Stats
-Fetch and maintain Obsidian plugin stats from the command-line.
+Fetch and maintain [Obsidian](https://readwithai.substack.com/p/what-exactly-is-obsidian) plugin download stats from the command-line.
 
 Obsidian provides quite detailed statistics about its plugins in JSON format at `https://raw.githubusercontent.com/obsidianmd/obsidian-releases/HEAD/community-plugin-stats.json` . These are easy to parse. I previously used the following script using [curl](https://www.man7.org/linux/man-pages/man1/curl.1.html) and [jq](https://github.com/jqlang/jq) to get statistics:
 ```
