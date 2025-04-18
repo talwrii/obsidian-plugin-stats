@@ -43,7 +43,7 @@ To maintain statistics you may wish to run obsidian-plugin-stats daily using, fo
 If this data is valuable to you might like to back up `~/.local/state/obsidian-plugin-stats`. I have this symlinked to a directory which I back up.
 
 # Support
-If you found this tool useful you could make a donation ($2 maybe?) which will incentivize me to make and maintain tools like this.
+If you found this tool useful you could make a donation ($2 maybe?) [on my ko-fi](https://ko-fi.com/c/92004bdf98)  which will incentivize me to make and maintain tools like this.
 
 Also, if you looked at this tool you are likely making a plugin for Obsidian. You may well be interested in my tool [Plugin REPL](https://readwithai.substack.com/p/obsidian-plugin-repl) which is designed to rapidly scripting Obsidian and iterating on plugins.
 
