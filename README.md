@@ -53,3 +53,5 @@ I am @readwithai I make tools related to reading and research sometimes using th
 I also tend to produce a [stream of productivity tools](https://readwithai.substack.com/p/my-productivity-tools) like this.
 
 If any of this sounds interesting you can follow me on [X](https://x.com/readwithai) where I write about this sort of thing.  If you are interested in Obsidian, note-taking or research you might like my [blog](https://readwithai.substack.com/).
+
+![@readwithai logo](./logo.png)
