@@ -38,7 +38,7 @@ You can get a timeseries of historic data in [the JSONL format](https://www.atat
 obsidian-plugin-stats --timeline plugin-repl
 ```
 
-To maintain statistics you may wish to run obsidian-plugin-stats daily using, for example, a [systemd timer](https://www.freedesktop.org/software/systemd/man/latest/systemd.timer.html) or [cron job](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/). The command `obsidian-plugin-stats --fetch` is provided for this reason.
+To maintain statistics you may wish to run obsidian-plugin-stats daily using, for example, a [systemd timer](https://www.freedesktop.org/software/systemd/man/latest/systemd.timer.html) or [cron job](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/).
 
 If this data is valuable to you might like to back up `~/.local/state/obsidian-plugin-stats`. I have this symlinked to a directory which I back up.
 
