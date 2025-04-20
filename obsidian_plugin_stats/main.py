@@ -27,12 +27,17 @@ def main():
 
     fetch()
 
+    if "--fetch" in sys.argv:
+        return
+
     PARSER = argparse.ArgumentParser(description='Fetch and maintain stats about an Obsidian plugin')
     PARSER.add_argument("-V", '--versions', action='store_true', default=False, help="Show the versions for this plugin")
     PARSER.add_argument("-r", '--raw', action='store_true', default=False, help="Output raw JSON for this plugin")
     PARSER.add_argument("-t", '--timeseries', action='store_true', default=False, help="Output a timeseries of downloads")
     PARSER.add_argument('--date', type=datetime.date.fromisoformat, help="Return data for a particulary day rather than today")
     PARSER.add_argument('--json', action='store_true')
+    PARSER.add_argument('--fetch', action='store_true', default=False, help="When run with no argument just fetch data")
+
     PARSER.add_argument('plugin')
     args = PARSER.parse_args()
 
