@@ -66,7 +66,7 @@ def main():
         for path in sorted(STATS_DIR.iterdir(), key=lambda x: x.name):
             with open(path) as stream:
                 d = json.loads(stream.read())
-            record = {"date": day.isoformat(), "downloads": d[args.plugin]["downloads"]}
+            record = {"date": path.name, "downloads": d[args.plugin]["downloads"]}
             print(json.dumps(record))
         return
 
