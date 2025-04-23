@@ -1,4 +1,6 @@
 # Obsidian Plugin Stats
+**@readwithai** - [X](https://x.com/readwithai) - [blog](https://readwithai.substack.com) - [Plugin REPL](https://github.com/talwrii/plugin-repl)
+
 Fetch and maintain [Obsidian](https://readwithai.substack.com/p/what-exactly-is-obsidian) plugin download stats from the command-line.
 
 Obsidian provides quite detailed statistics about its plugins in JSON format at `https://raw.githubusercontent.com/obsidianmd/obsidian-releases/HEAD/community-plugin-stats.json` . These are easy to parse. I previously used the following script using [curl](https://www.man7.org/linux/man-pages/man1/curl.1.html) and [jq](https://github.com/jqlang/jq) to get statistics:
@@ -48,7 +50,7 @@ If you found this tool useful you could make a donation ($2 maybe?) [on my ko-fi
 Also, if you looked at this tool you are likely making a plugin for Obsidian. You may well be interested in my tool [Plugin REPL](https://readwithai.substack.com/p/obsidian-plugin-repl) which is designed to rapidly scripting Obsidian and iterating on plugins.
 
 # About me
-I am @readwithai I make tools related to reading and research sometimes using the [Obsidian markdown editor]. I get quite a lot of value from using Obsidian for "drive-by" note taking while coding, Obsidian makes it easy to quickly find a page and jot down some notes in a place where you will find it again when thinking about the same thing. I wrote some notes about this [here](https://readwithai.substack.com/p/drive-by-note-taking-in-obsidian) .
+I am @readwithai I make tools related to reading and research sometimes using the [Obsidian markdown editor](https://readwithai.substack.com/p/making-better-notes-with-obsidian). I get quite a lot of value from using Obsidian for "drive-by" note taking while coding, Obsidian makes it easy to quickly find a page and jot down some notes in a place where you will find it again when thinking about the same thing. I wrote some notes about this [here](https://readwithai.substack.com/p/drive-by-note-taking-in-obsidian) .
 
 I also tend to produce a [stream of productivity tools](https://readwithai.substack.com/p/my-productivity-tools) like this.
 
